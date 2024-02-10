@@ -1,0 +1,130 @@
+.buyContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.details h3,h4,h5,p{
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.details p strong{
+    color: #81ecec;
+}
+.descp{
+    width: 40vw;
+}
+.headImg{
+    width: 35vw;
+}
+.imgList{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgList img{
+    width: 7vw;
+    cursor: pointer;
+}
+.str{
+    display: flex;
+    align-items: center;
+}
+.icn{
+    color: yellow;
+    font-size: 20px;
+}
+.str p{
+    margin-left: 5px;
+}
+.colorCar{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.colorCar button{
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tick{
+    color: #fff;
+    font-size: 20px;
+}
+.add{
+    display: flex;
+    align-items: center;
+}
+.add h4{
+    margin-left: 10px;
+}
+.inc{
+    font-size: 1.4rem;
+    cursor: pointer;
+   
+}
+.dec{
+    font-size: 1.4rem;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.btn{
+    padding: 15px 25px;
+    background-color: #81ecec;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:936px) {
+    .headImg{
+        width: 45vw;
+    }
+}
+@media only screen and (max-width:776px) {
+    /* .headImg{
+        width: 55vw;
+    } */
+    .descp{
+        width: 45vw;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:608px) {
+    .headImg{
+        width: 50vw;
+    }
+    .descp{
+      
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:584px) {
+    .buyContainer{
+        flex-direction: column;
+    }
+    .headImg{
+        width: 65vw;
+    }
+    .descp{
+      width: 70vw;
+        font-size: 14px;
+    }
+    .details{
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width:405px) {
+    .headImg{
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .descp{
+      width: 70vw;
+        font-size: 14px;
+    }
+
+}

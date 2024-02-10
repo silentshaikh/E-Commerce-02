@@ -1,0 +1,64 @@
+.contactCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.formCont label{
+    padding: 10px 0;
+    color:#81ecec;
+    font-weight: 600;
+}
+.formCont input{
+    padding: 15px 90px;
+    width: 50vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.formCont textarea{
+    padding: 15px 90px;
+    width: 50vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.formCont button{
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #81ecec;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+@media only screen and (max-width:810px) {
+    .contBox1 iframe{
+        width: 80vw;
+    }
+}
+@media only screen and (max-width:560px) {
+    .contBox1 iframe{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width:624px) {
+    .formCont input{
+        width: 100%;
+    }
+    .formCont textarea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,138 @@
+.productCont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.prodCard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 90px;
+}
+.ListCard{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 12px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.ListCard img{
+    width: 20vw;
+}
+.detl{
+    margin-left: 10px;
+}
+.detl button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #81ecec;
+    color: #fff;
+    border: none;
+}
+.sort{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.grid{
+    font-size: 1.4rem;
+    color: #81ecec;
+    padding: 0px 8px;
+    background-color: #fff;
+    border: 2px solid #81ecec;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.activeflex{
+    background-color: #81ecec;
+    color: #fff;
+}
+.ListCard p{
+    width: 400px;
+}
+.sort form select{
+    outline: none;
+}
+.filter{
+padding-left: 20px;
+padding-top: 20px;
+}
+.filter form input{
+    width: 15vw;
+    padding: 5px;
+    outline: none;
+}
+.buttnList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.buttnList button{
+    margin-bottom: 5px ;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.company select{
+    outline: none;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.color{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.colrList{
+    display: flex;
+    padding-top: 5px;
+}
+.colrList button{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.allColr{
+    background: transparent;
+    text-transform: capitalize;
+}
+.tick{
+    color: #fff;
+}
+.price{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.filtBtn{
+    padding: 12px 35px;
+    background-color: #81ecec;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.footCont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+}
+.footOne{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formFoot{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.formFoot input{
+    padding: 5px 15px;
+    outline: none;
+}
+.formFoot button{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #81ecec;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.boxThree{
+    margin-left: 60px;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+.boxThree h3{
+    padding-bottom: 10px;
+}
+.ins{
+    font-size: 3rem;
+    color: palevioletred;
+    padding: 5px;
+    cursor: pointer;
+}
+.you{
+    font-size: 3rem;
+    color: crimson;
+    padding: 5px;
+    cursor: pointer;
+}
+.fac{
+    font-size: 3rem;
+    color: #0fbcf9;
+    padding: 5px;
+    cursor: pointer;
+}
+.lorem{
+    width: 30vw;
+}
+@media only screen and (max-width:1115px) {
+    .boxOne{
+        width: 60%;
+    }
+    .boxThree{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:420px) {
+    .boxOne{
+        padding-left: 0;
+    }
+    .lorem{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:1102px) {
+    .lorem{
+        font-size: 14px;
+        width: 100%;
+    }
+
+}
